@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/quartz_block_bottom",
+    "particle": "minecraft:block/quartz_block_bottom",
+    "missing": "minecraft:block/quartz_block_bottom"
+  },
+  "render_type": "solid"
+}

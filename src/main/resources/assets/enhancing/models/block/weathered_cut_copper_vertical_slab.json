@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/weathered_cut_copper",
+    "particle": "minecraft:block/weathered_cut_copper",
+    "missing": "minecraft:block/weathered_cut_copper"
+  },
+  "render_type": "solid"
+}

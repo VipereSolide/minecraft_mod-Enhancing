@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "enhancing:blocks/dirt",
+    "top": "enhancing:blocks/dirt",
+    "side": "enhancing:blocks/dirt"
+  },
+  "render_type": "solid"
+}

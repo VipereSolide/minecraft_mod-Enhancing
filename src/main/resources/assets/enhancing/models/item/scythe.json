@@ -1,0 +1,7 @@
+{
+  "parent": "enhancing:custom/scythe",
+  "textures": {
+    "0": "enhancing:blocks/scythe",
+    "particle": "enhancing:items/scythe"
+  }
+}

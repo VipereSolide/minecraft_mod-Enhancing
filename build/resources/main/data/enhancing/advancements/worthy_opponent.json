@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "advancements.worthy_opponent.title"
+    },
+    "description": {
+      "translate": "advancements.worthy_opponent.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "worthy_opponent": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:adventure/root"
+}

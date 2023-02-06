@@ -1,0 +1,12 @@
+{
+  "_fv": 38,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "P",
+    "keyBindingName": "Retrieve Emeralds",
+    "keyBindingCategoryKey": "inventory",
+    "onKeyPressed": {
+      "name": "RetrieveEmeralds"
+    }
+  }
+}

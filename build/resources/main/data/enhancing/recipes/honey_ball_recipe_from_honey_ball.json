@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:honeycomb"
+    },
+    "1": {
+      "item": "minecraft:honeycomb"
+    },
+    "2": {
+      "item": "minecraft:honeycomb"
+    },
+    "3": {
+      "item": "minecraft:honeycomb"
+    },
+    "4": {
+      "item": "enhancing:honey_ball"
+    },
+    "5": {
+      "item": "minecraft:honeycomb"
+    },
+    "6": {
+      "item": "minecraft:honeycomb"
+    },
+    "7": {
+      "item": "minecraft:honeycomb"
+    },
+    "8": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "result": {
+    "item": "enhancing:honey_ball",
+    "count": 4
+  }
+}

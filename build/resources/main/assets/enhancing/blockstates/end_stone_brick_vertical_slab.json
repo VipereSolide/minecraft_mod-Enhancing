@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "enhancing:block/end_stone_brick_vertical_slab"
+    },
+    "facing=east": {
+      "model": "enhancing:block/end_stone_brick_vertical_slab",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "enhancing:block/end_stone_brick_vertical_slab",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enhancing:block/end_stone_brick_vertical_slab",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "enhancing:block/end_stone_brick_vertical_slab",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "enhancing:block/end_stone_brick_vertical_slab",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enhancing:blocks/furnace_top",
+    "up": "enhancing:blocks/furnace_top",
+    "north": "enhancing:blocks/coal_furnace_front",
+    "east": "enhancing:blocks/furnace_side",
+    "south": "enhancing:blocks/furnace_side",
+    "west": "enhancing:blocks/furnace_side",
+    "particle": "enhancing:blocks/furnace_top"
+  },
+  "render_type": "solid"
+}

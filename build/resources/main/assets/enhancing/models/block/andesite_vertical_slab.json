@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/andesite",
+    "particle": "minecraft:block/andesite",
+    "missing": "minecraft:block/andesite"
+  },
+  "render_type": "solid"
+}

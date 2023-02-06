@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_hanging_lantern",
+  "textures": {
+    "all": "enhancing:blocks/lantern_burnt_out",
+    "particle": "enhancing:blocks/lantern_burnt_out",
+    "lantern": "enhancing:blocks/lantern_burnt_out"
+  },
+  "render_type": "solid"
+}

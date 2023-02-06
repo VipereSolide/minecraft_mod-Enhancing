@@ -1,0 +1,47 @@
+{
+  "_fv": 38,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "honey_ball",
+    "customModelName": "Normal",
+    "name": "Honey Ball",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Sticks to your hands. Used to create sticky pistons and other slime ball related blocks."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "HoneyBallPlayerFinishesUsingItem"
+    },
+    "isFood": true,
+    "nutritionalValue": 1,
+    "saturation": 0.1,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "enhancing:items/enchanting_cursed_rune"
+  }
+}

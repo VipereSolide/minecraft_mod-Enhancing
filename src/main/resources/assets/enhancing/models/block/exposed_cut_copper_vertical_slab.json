@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/exposed_cut_copper",
+    "particle": "minecraft:block/exposed_cut_copper",
+    "missing": "minecraft:block/exposed_cut_copper"
+  },
+  "render_type": "solid"
+}

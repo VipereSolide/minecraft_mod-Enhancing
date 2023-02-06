@@ -1,0 +1,42 @@
+{
+  "_fv": 38,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "emerald.png",
+          "use1Xscale": false,
+          "x": 6,
+          "y": 6
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "193"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 22,
+          "y": 9
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

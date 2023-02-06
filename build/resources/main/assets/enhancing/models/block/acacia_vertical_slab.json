@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/acacia_planks",
+    "particle": "minecraft:block/acacia_planks",
+    "missing": "minecraft:block/acacia_planks"
+  },
+  "render_type": "solid"
+}

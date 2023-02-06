@@ -1,0 +1,7 @@
+{
+  "parent": "enhancing:custom/edler_bow",
+  "textures": {
+    "0": "enhancing:blocks/elderbow",
+    "particle": "enhancing:items/elderbow"
+  }
+}

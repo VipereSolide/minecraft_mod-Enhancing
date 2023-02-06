@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/diorite",
+    "particle": "minecraft:block/diorite",
+    "missing": "minecraft:block/diorite"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/cobblestone",
+    "particle": "minecraft:block/cobblestone",
+    "missing": "minecraft:block/cobblestone"
+  },
+  "render_type": "solid"
+}

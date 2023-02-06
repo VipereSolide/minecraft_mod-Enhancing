@@ -1,0 +1,9 @@
+{
+  "_fv": 38,
+  "_type": "command",
+  "definition": {
+    "commandName": "damage",
+    "permissionLevel": "2",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"291\" y=\"59\"><next><block type=\"entity\"><field name=\"name\">sourcentity</field><field name=\"type\">entity</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">MagmaWalkerEnchantmentBehaviour</field></block></statement></block></next></block></xml>"
+  }
+}

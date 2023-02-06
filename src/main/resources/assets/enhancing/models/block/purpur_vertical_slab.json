@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/purpur_block",
+    "particle": "minecraft:block/purpur_block",
+    "missing": "minecraft:block/purpur_block"
+  },
+  "render_type": "solid"
+}

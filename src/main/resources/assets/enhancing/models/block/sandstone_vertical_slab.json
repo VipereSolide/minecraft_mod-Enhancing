@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/sandstone_top",
+    "particle": "minecraft:block/sandstone_top",
+    "missing": "minecraft:block/sandstone_top"
+  },
+  "render_type": "solid"
+}

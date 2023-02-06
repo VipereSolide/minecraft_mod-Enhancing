@@ -1,0 +1,6 @@
+{
+    "parent": "enhancing:item/hunting_bow",
+    "textures": {
+        "layer0": "enhancing:items/hunting_bow_pulling_1"
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/deepslate_tiles",
+    "particle": "minecraft:block/deepslate_tiles",
+    "missing": "minecraft:block/deepslate_tiles"
+  },
+  "render_type": "solid"
+}

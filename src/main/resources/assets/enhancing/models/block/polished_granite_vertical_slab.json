@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/polished_granite",
+    "particle": "minecraft:block/polished_granite",
+    "missing": "minecraft:block/polished_granite"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "enhancing:block/oakredrooftiles"
+    },
+    "facing=east": {
+      "model": "enhancing:block/oakredrooftiles",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "enhancing:block/oakredrooftiles",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enhancing:block/oakredrooftiles",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "enhancing:block/oakredrooftiles",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "enhancing:block/oakredrooftiles",
+      "x": 90
+    }
+  }
+}

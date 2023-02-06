@@ -1,0 +1,10 @@
+{
+  "parent": "enhancing:custom/tiles",
+  "textures": {
+    "all": "enhancing:blocks/tiles",
+    "particle": "enhancing:blocks/tiles",
+    "1": "enhancing:blocks/tiles",
+    "frame": "enhancing:blocks/stripped_oak_log"
+  },
+  "render_type": "cutout"
+}

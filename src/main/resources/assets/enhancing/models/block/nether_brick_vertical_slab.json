@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/nether_bricks",
+    "particle": "minecraft:block/nether_bricks",
+    "missing": "minecraft:block/nether_bricks"
+  },
+  "render_type": "solid"
+}

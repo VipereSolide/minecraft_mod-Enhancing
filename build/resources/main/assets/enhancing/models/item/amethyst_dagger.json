@@ -1,0 +1,7 @@
+{
+  "parent": "enhancing:custom/amethyst_dagger",
+  "textures": {
+    "0": "enhancing:blocks/amethyst_dagger",
+    "particle": "enhancing:items/amethyst_dagger"
+  }
+}

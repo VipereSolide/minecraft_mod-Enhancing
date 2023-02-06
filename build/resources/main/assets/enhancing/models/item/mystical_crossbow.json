@@ -1,0 +1,7 @@
+{
+  "parent": "enhancing:custom/mystical_crossbow",
+  "textures": {
+    "0": "enhancing:blocks/mystical_crossbow",
+    "particle": "enhancing:items/mystical_crossbow"
+  }
+}

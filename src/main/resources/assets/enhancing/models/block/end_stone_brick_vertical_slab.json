@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/end_stone_bricks",
+    "particle": "minecraft:block/end_stone_bricks",
+    "missing": "minecraft:block/end_stone_bricks"
+  },
+  "render_type": "solid"
+}

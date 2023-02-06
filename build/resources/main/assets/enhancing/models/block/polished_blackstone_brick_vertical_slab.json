@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/polished_blackstone_bricks",
+    "particle": "minecraft:block/polished_blackstone_bricks",
+    "missing": "minecraft:block/polished_blackstone_bricks"
+  },
+  "render_type": "solid"
+}

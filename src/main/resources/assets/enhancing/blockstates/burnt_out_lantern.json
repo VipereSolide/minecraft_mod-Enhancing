@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "enhancing:block/burnt_out_lantern"
+    },
+    "hanging=true": {
+      "model": "enhancing:block/hanging_burnt_out_lantern"
+    }
+  }
+}

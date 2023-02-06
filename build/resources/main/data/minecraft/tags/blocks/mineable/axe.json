@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "enhancing:oak_vertical_slab",
+    "enhancing:spruce_vertical_slab",
+    "enhancing:birch_vertical_slab",
+    "enhancing:jungle_vertical_slab",
+    "enhancing:acacia_vertical_slab",
+    "enhancing:dark_oak_vertical_slab",
+    "enhancing:mangrove_vertical_slab",
+    "enhancing:crimson_vertical_slab",
+    "enhancing:warped_vertical_slab"
+  ]
+}

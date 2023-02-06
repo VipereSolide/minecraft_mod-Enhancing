@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/spruce_planks",
+    "particle": "minecraft:block/spruce_planks",
+    "missing": "minecraft:block/spruce_planks"
+  },
+  "render_type": "solid"
+}

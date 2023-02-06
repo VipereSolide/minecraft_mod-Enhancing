@@ -1,0 +1,7 @@
+{
+  "parent": "enhancing:custom/bird_staff",
+  "textures": {
+    "0": "enhancing:blocks/bird_staff",
+    "particle": "enhancing:items/bird_staff"
+  }
+}

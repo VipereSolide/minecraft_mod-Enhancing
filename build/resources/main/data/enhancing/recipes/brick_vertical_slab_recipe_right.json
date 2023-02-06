@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brick"
+    },
+    "1": {
+      "item": "minecraft:brick"
+    },
+    "2": {
+      "item": "minecraft:brick"
+    },
+    "3": {
+      "item": "minecraft:brick"
+    },
+    "4": {
+      "item": "minecraft:brick"
+    },
+    "5": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "enhancing:brick_vertical_slab",
+    "count": 4
+  }
+}

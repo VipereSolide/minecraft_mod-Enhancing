@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "enhancing:block/coal_furnace"
+    },
+    "facing=east": {
+      "model": "enhancing:block/coal_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "enhancing:block/coal_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enhancing:block/coal_furnace",
+      "y": 270
+    }
+  }
+}

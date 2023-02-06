@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/mossy_stone_bricks",
+    "particle": "minecraft:block/mossy_stone_bricks",
+    "missing": "minecraft:block/mossy_stone_bricks"
+  },
+  "render_type": "solid"
+}

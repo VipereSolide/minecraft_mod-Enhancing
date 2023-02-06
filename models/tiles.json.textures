@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "tiles",
+        "frame": "stripped_oak_log"
+      },
+      "name": "default"
+    }
+  }
+}

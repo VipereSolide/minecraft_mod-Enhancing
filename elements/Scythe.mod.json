@@ -1,0 +1,36 @@
+{
+  "_fv": 38,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "scythe",
+    "customModelName": "scythe:default",
+    "name": "Scythe",
+    "specialInfo": [
+      "§7Common",
+      "§eSlow weapon with very big range and high attack.",
+      "§7Power §b|||||||§8|||",
+      "§7Knockback §b|||§8|||||||",
+      "§7Attack speed §b||§8||||||||"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 4.0,
+    "attackSpeed": 0.7000000000000001,
+    "enchantability": 14,
+    "damageVsEntity": 7.5,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ScytheAttack"
+    }
+  }
+}

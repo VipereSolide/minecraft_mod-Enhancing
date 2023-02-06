@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/prismarine",
+    "particle": "minecraft:block/prismarine",
+    "missing": "minecraft:block/prismarine"
+  },
+  "render_type": "solid"
+}

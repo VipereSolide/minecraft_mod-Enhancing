@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/warped_planks",
+    "particle": "minecraft:block/warped_planks",
+    "missing": "minecraft:block/warped_planks"
+  },
+  "render_type": "solid"
+}

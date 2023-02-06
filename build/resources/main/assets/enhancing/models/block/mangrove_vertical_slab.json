@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/mangrove_planks",
+    "particle": "minecraft:block/mangrove_planks",
+    "missing": "minecraft:block/mangrove_planks"
+  },
+  "render_type": "solid"
+}

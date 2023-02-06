@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enhancing:blocks/runed_deepslate_bricks_c_off",
+    "up": "enhancing:blocks/runed_deepslate_bricks_c_off",
+    "north": "enhancing:blocks/runed_deepslate_bricks_c_off",
+    "east": "enhancing:blocks/runed_deepslate_bricks_c_off",
+    "south": "enhancing:blocks/runed_deepslate_bricks_c_off",
+    "west": "enhancing:blocks/runed_deepslate_bricks_c_off",
+    "particle": "enhancing:blocks/runed_deepslate_bricks_c_off"
+  },
+  "render_type": "solid"
+}

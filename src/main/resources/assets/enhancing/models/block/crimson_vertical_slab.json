@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/crimson_planks",
+    "particle": "minecraft:block/crimson_planks",
+    "missing": "minecraft:block/crimson_planks"
+  },
+  "render_type": "solid"
+}

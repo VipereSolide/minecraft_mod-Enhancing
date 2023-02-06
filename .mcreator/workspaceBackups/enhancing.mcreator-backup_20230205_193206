@@ -1,0 +1,2851 @@
+{
+  "mod_elements": [
+    {
+      "name": "EnchantingRune",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanting_rune",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/enchanting_rune.json",
+          "src/main/java/net/mcreator/enhancing/item/EnchantingRuneItem.java"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "EnchantingRuneRightclicked",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "enchanting_rune_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "EnchantingRunesLootTable",
+      "type": "loottable",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanting_runes_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/enchanting_runes_loot_table.json"
+        ]
+      },
+      "path": "~/data/lootTables"
+    },
+    {
+      "name": "QuiverGUI",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "quiver_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/world/inventory/QuiverGUIMenu.java",
+          "src/main/java/net/mcreator/enhancing/client/gui/QuiverGUIScreen.java"
+        ]
+      },
+      "path": "~/gui"
+    },
+    {
+      "name": "Quiver",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quiver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/item/QuiverItem.java",
+          "src/main/java/net/mcreator/enhancing/item/inventory/QuiverInventoryCapability.java",
+          "src/main/resources/assets/enhancing/models/item/quiver.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "QuiverRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quiver_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/quiver_recipe.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "SaddleRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saddle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/saddle_recipe.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "SaddleRecipeTop",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saddle_recipe_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/saddle_recipe_top.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "IronHorseArmorRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_horse_armor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/iron_horse_armor_recipe.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "Scythe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "scythe",
+      "path": "~/item/weapon/melee"
+    },
+    {
+      "name": "ScytheAttack",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "scythe_attack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item/weapon/melee"
+    },
+    {
+      "name": "ScytheRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scythe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/scythe_recipe.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "AmethystDagger",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "amethyst_dagger",
+      "path": "~/item/weapon/melee"
+    },
+    {
+      "name": "AmethystDaggerAttack",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "amethyst_dagger_attack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item/weapon/melee"
+    },
+    {
+      "name": "Ezdzfdzef",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ezdzfdzef",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/utility"
+    },
+    {
+      "name": "EdlerBow",
+      "type": "rangeditem",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "edler_bow",
+      "path": "~/item/weapon/range"
+    },
+    {
+      "name": "Strength",
+      "type": "enchantment",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "strength",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/enchantment/StrengthEnchantment.java"
+        ]
+      },
+      "path": "~/enchantments/weapon/range"
+    },
+    {
+      "name": "MysticalCrossbow",
+      "type": "rangeditem",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mystical_crossbow",
+      "path": "~/item/weapon/range"
+    },
+    {
+      "name": "MagmaWalker",
+      "type": "enchantment",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "magma_walker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/enchantment/MagmaWalkerEnchantment.java"
+        ]
+      },
+      "path": "~/enchantments/armor"
+    },
+    {
+      "name": "MagmaWalkerEnchantmentBehaviour",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "magma_walker_enchantment_behaviour",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/procedures/MagmaWalkerEnchantmentBehaviourProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantments/armor"
+    },
+    {
+      "name": "Reinforcement",
+      "type": "enchantment",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "reinforcement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/enchantment/ReinforcementEnchantment.java"
+        ]
+      },
+      "path": "~/enchantments/armor"
+    },
+    {
+      "name": "Damage",
+      "type": "command",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/command/DamageCommand.java"
+        ]
+      },
+      "path": "~/commands/creative"
+    },
+    {
+      "name": "EnchantingCursedRune",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "enchanting_cursed_rune",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/item/EnchantingCursedRuneItem.java",
+          "src/main/resources/assets/enhancing/models/item/enchanting_cursed_rune.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "EnchantingCursedRuneRightclicked",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "enchanting_cursed_rune_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/procedures/EnchantingCursedRuneRightclickedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "BirdStaffRightclicked",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bird_staff_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/procedures/BirdStaffRightclickedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/item/magic"
+    },
+    {
+      "name": "BirdStaff",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bird_staff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/item/BirdStaffItem.java",
+          "src/main/resources/assets/enhancing/models/item/bird_staff.json"
+        ]
+      },
+      "path": "~/item/magic"
+    },
+    {
+      "name": "SetData",
+      "type": "command",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "set_data",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/command/SetDataCommand.java"
+        ]
+      },
+      "path": "~/commands/creative"
+    },
+    {
+      "name": "StonePickaxeFromDiorite",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_pickaxe_from_diorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_pickaxe_from_diorite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StonePickaxeFromAndesite",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_pickaxe_from_andesite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_pickaxe_from_andesite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StonePickaxeFromGranite",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_pickaxe_from_granite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_pickaxe_from_granite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneAxeFromAndesite",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_from_andesite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_axe_from_andesite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneAxeFromDiorite",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_from_diorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_axe_from_diorite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneAxeFromGranite",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_from_granite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_axe_from_granite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneAxeFromAndesiteLeft",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_from_andesite_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_axe_from_andesite_left.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneAxeFromDioriteLeft",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_from_diorite_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_axe_from_diorite_left.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneAxeFromGraniteLeft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_from_granite_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_axe_from_granite_left.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneShovelFromAndesite",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel_from_andesite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_shovel_from_andesite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneShovelFromAndesiteLeft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel_from_andesite_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_shovel_from_andesite_left.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneShovelFromAndesiteRight",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel_from_andesite_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_shovel_from_andesite_right.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneShovelFromDiorite",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel_from_diorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_shovel_from_diorite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneShovelFromDioriteLeft",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel_from_diorite_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_shovel_from_diorite_left.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneShovelFromDioriteRight",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel_from_diorite_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_shovel_from_diorite_right.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneShovelFromGranite",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel_from_granite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_shovel_from_granite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneShovelFromGraniteLeft",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel_from_granite_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_shovel_from_granite_left.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneShovelFromGraniteRight",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel_from_granite_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_shovel_from_granite_right.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneHoeFromAndesite",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hoe_from_andesite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_hoe_from_andesite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneHoeFromAndesiteLeft",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hoe_from_andesite_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_hoe_from_andesite_left.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneHoeFromDiorite",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hoe_from_diorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_hoe_from_diorite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneHoeFromDioriteLeft",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hoe_from_diorite_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_hoe_from_diorite_left.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneHoeFromGranite",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hoe_from_granite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_hoe_from_granite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneHoeFromGraniteLeft",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hoe_from_granite_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_hoe_from_granite_left.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneSwordFromAndesite",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_sword_from_andesite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_sword_from_andesite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneSwordFromAndesiteLeft",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_sword_from_andesite_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_sword_from_andesite_left.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneSwordFromAndesiteRight",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_sword_from_andesite_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_sword_from_andesite_right.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneSwordFromDiorite",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_sword_from_diorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_sword_from_diorite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneSwordFromDioriteLeft",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_sword_from_diorite_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_sword_from_diorite_left.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneSwordFromDioriteRight",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_sword_from_diorite_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_sword_from_diorite_right.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneSwordFromGranite",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_sword_from_granite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_sword_from_granite.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneSwordFromGraniteLeft",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_sword_from_granite_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_sword_from_granite_left.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneSwordFromGraniteRight",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_sword_from_granite_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/stone_sword_from_granite_right.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StoneVerticalSlab",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stone_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/stone_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/stone_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/StoneVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/blockstates/stone_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "CobblestoneVerticalSlab",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cobblestone_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/cobblestone_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/CobblestoneVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/cobblestone_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/cobblestone_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "OakVerticalSlab",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "oak_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/blockstates/oak_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/oak_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/OakVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/item/oak_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "SpruceVerticalSlab",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spruce_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/SpruceVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/item/spruce_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/spruce_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/spruce_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "BirchVerticalSlab",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "birch_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/birch_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/birch_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/BirchVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/birch_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "JungleVerticalSlab",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jungle_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/block/jungle_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/jungle_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/jungle_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/JungleVerticalSlabBlock.java"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "AcaciaVerticalSlab",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "acacia_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/blockstates/acacia_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/AcaciaVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/item/acacia_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/acacia_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "DarkOakVerticalSlab",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dark_oak_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/dark_oak_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/dark_oak_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/DarkOakVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/dark_oak_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "MangroveVerticalSlab",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mangrove_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/MangroveVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/mangrove_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/mangrove_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/mangrove_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "CrimsonVerticalSlab",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crimson_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/CrimsonVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/blockstates/crimson_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/crimson_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/crimson_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "WarpedVerticalSlab",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "warped_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/blockstates/warped_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/warped_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/WarpedVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/warped_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "SmoothStoneVerticalSlab",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smooth_stone_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/blockstates/smooth_stone_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/SmoothStoneVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/smooth_stone_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/smooth_stone_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "MossyCobblestoneVerticalSlab",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mossy_cobblestone_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/block/mossy_cobblestone_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/MossyCobblestoneVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/item/mossy_cobblestone_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/mossy_cobblestone_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "StoneBrickVerticalSlab",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stone_brick_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/StoneBrickVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/blockstates/stone_brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/stone_brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/stone_brick_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "MossyStoneBrickVerticalSlab",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mossy_stone_brick_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/block/mossy_stone_brick_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/MossyStoneBrickVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/blockstates/mossy_stone_brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/mossy_stone_brick_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "AndesiteVerticalSlab",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "andesite_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/andesite_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/andesite_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/andesite_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/AndesiteVerticalSlabBlock.java"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "PolishedAndesiteVerticalSlab",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "polished_andesite_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/polished_andesite_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/polished_andesite_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/PolishedAndesiteVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/polished_andesite_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "DioriteVerticalSlab",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "diorite_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/DioriteVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/diorite_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/diorite_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/diorite_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "PolishedDioriteVerticalSlab",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "polished_diorite_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/blockstates/polished_diorite_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/polished_diorite_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/PolishedDioriteVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/item/polished_diorite_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "GraniteVerticalSlab",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "granite_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/granite_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/granite_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/granite_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/GraniteVerticalSlabBlock.java"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "PolishedGraniteVerticalSlab",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "polished_granite_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/PolishedGraniteVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/blockstates/polished_granite_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/polished_granite_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/polished_granite_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "SandstoneVerticalSlab",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sandstone_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/block/sandstone_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/sandstone_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/sandstone_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/SandstoneVerticalSlabBlock.java"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "RedSandstoneVerticalSlab",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_sandstone_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/red_sandstone_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/red_sandstone_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/red_sandstone_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/RedSandstoneVerticalSlabBlock.java"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "BrickVerticalSlab",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "brick_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/brick_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/BrickVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/brick_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "PrismarineVerticalSlab",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "prismarine_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/blockstates/prismarine_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/prismarine_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/prismarine_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/PrismarineVerticalSlabBlock.java"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "PrismarineBrickVerticalSlab",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "prismarine_brick_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/blockstates/prismarine_brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/prismarine_brick_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/PrismarineBrickVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/prismarine_brick_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "DarkPrismarineVerticalSlab",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dark_prismarine_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/block/dark_prismarine_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/DarkPrismarineVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/item/dark_prismarine_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/dark_prismarine_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "NetherBrickVerticalSlab",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nether_brick_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/NetherBrickVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/blockstates/nether_brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/nether_brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/nether_brick_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "RedNetherBrickVerticalSlab",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_nether_brick_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/blockstates/red_nether_brick_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/RedNetherBrickVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/red_nether_brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/red_nether_brick_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "QuartzVerticalSlab",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "quartz_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/block/quartz_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/quartz_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/quartz_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/QuartzVerticalSlabBlock.java"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "PurpurVerticalSlab",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "purpur_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/PurpurVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/purpur_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/purpur_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/purpur_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "EndStoneBrickVerticalSlab",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "end_stone_brick_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/end_stone_brick_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/EndStoneBrickVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/end_stone_brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/end_stone_brick_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "BlackstoneVerticalSlab",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blackstone_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/block/blackstone_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/BlackstoneVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/item/blackstone_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/blackstone_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "PolishedBlackstoneVerticalSlab",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "polished_blackstone_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/polished_blackstone_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/polished_blackstone_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/polished_blackstone_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/PolishedBlackstoneVerticalSlabBlock.java"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "PolishedBlackstoneBrickVerticalSlab",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "polished_blackstone_brick_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/PolishedBlackstoneBrickVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/item/polished_blackstone_brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/polished_blackstone_brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/polished_blackstone_brick_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "CutCopperVerticalSlab",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cut_copper_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/block/cut_copper_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/cut_copper_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/cut_copper_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/CutCopperVerticalSlabBlock.java"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "ExposedCutCopperVerticalSlab",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "exposed_cut_copper_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/exposed_cut_copper_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/exposed_cut_copper_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/exposed_cut_copper_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/ExposedCutCopperVerticalSlabBlock.java"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "WeatheredCutCopperVerticalSlab",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "weathered_cut_copper_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/WeatheredCutCopperVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/blockstates/weathered_cut_copper_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/weathered_cut_copper_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/weathered_cut_copper_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "OxidizedCutCopperVerticalSlab",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "oxidized_cut_copper_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/blockstates/oxidized_cut_copper_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/OxidizedCutCopperVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/item/oxidized_cut_copper_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/oxidized_cut_copper_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "WaxedCutCopperVerticalSlab",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "waxed_cut_copper_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/block/waxed_cut_copper_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/waxed_cut_copper_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/waxed_cut_copper_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/WaxedCutCopperVerticalSlabBlock.java"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "WaxedExposedCutCopperVerticalSlab",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "waxed_exposed_cut_copper_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/waxed_exposed_cut_copper_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/waxed_exposed_cut_copper_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/WaxedExposedCutCopperVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/blockstates/waxed_exposed_cut_copper_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "WaxedWeatheredCutCopperVerticalSlab",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "waxed_weathered_cut_copper_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/block/waxed_weathered_cut_copper_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/WaxedWeatheredCutCopperVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/blockstates/waxed_weathered_cut_copper_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/item/waxed_weathered_cut_copper_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "WaxedOxidizedCutCopperVerticalSlab",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "waxed_oxidized_cut_copper_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/waxed_oxidized_cut_copper_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/waxed_oxidized_cut_copper_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/waxed_oxidized_cut_copper_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/WaxedOxidizedCutCopperVerticalSlabBlock.java"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "CobbledDeepslateVerticalSlab",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cobbled_deepslate_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/block/cobbled_deepslate_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/cobbled_deepslate_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/CobbledDeepslateVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/item/cobbled_deepslate_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "PolishedDeepslateVerticalSlab",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "polished_deepslate_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/PolishedDeepslateVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/item/polished_deepslate_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/polished_deepslate_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/polished_deepslate_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "DeepslateBrickVerticalSlab",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deepslate_brick_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/DeepslateBrickVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/item/deepslate_brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/deepslate_brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/deepslate_brick_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "DeepslateTileVerticalSlab",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deepslate_tile_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/DeepslateTileVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/item/deepslate_tile_vertical_slab.json",
+          "src/main/resources/assets/enhancing/models/block/deepslate_tile_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/deepslate_tile_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "MudBrickVerticalSlab",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mud_brick_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/mud_brick_vertical_slab.json",
+          "src/main/resources/assets/enhancing/blockstates/mud_brick_vertical_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/MudBrickVerticalSlabBlock.java",
+          "src/main/resources/assets/enhancing/models/block/mud_brick_vertical_slab.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "Oakredrooftiles",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oakredrooftiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/OakredrooftilesBlock.java",
+          "src/main/resources/assets/enhancing/models/item/oakredrooftiles.json",
+          "src/main/resources/assets/enhancing/blockstates/oakredrooftiles.json",
+          "src/main/resources/assets/enhancing/models/block/oakredrooftiles.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "BlastFurnaceMeltStone",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blast_furnace_melt_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/blast_furnace_melt_stone.json"
+        ]
+      },
+      "path": "~/recipe/furnace/blast furnace"
+    },
+    {
+      "name": "BlastFurnaceMeltCobblestone",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blast_furnace_melt_cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/blast_furnace_melt_cobblestone.json"
+        ]
+      },
+      "path": "~/recipe/furnace/blast furnace"
+    },
+    {
+      "name": "AcaciaVerticalSlabRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_vertical_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/acacia_vertical_slab_recipe.json"
+        ]
+      },
+      "path": "~/recipe/block"
+    },
+    {
+      "name": "AcaciaVerticalSlabRecipeRight",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_vertical_slab_recipe_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/acacia_vertical_slab_recipe_right.json"
+        ]
+      },
+      "path": "~/recipe/block"
+    },
+    {
+      "name": "HoneyBallPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "honey_ball_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/procedures/HoneyBallPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item/ingredients/honey"
+    },
+    {
+      "name": "HoneyBall",
+      "type": "item",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "honey_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/honey_ball.json",
+          "src/main/java/net/mcreator/enhancing/item/HoneyBallItem.java"
+        ]
+      },
+      "path": "~/item/ingredients/honey"
+    },
+    {
+      "name": "HoneyBallRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "honey_ball_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/honey_ball_recipe.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "HoneyBallRecipeFromHoneyBall",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "honey_ball_recipe_from_honey_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/honey_ball_recipe_from_honey_ball.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "StickyPistonFromHoneyBall",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sticky_piston_from_honey_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/sticky_piston_from_honey_ball.json"
+        ]
+      },
+      "path": "~/recipe/block"
+    },
+    {
+      "name": "LeadRecipeUsingHoneyBall",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_recipe_using_honey_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/lead_recipe_using_honey_ball.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "MagmaCreamRecipeUsingHoneyBall",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_cream_recipe_using_honey_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/magma_cream_recipe_using_honey_ball.json"
+        ]
+      },
+      "path": "~/recipe/item"
+    },
+    {
+      "name": "BirchVerticalSlabRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_vertical_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/birch_vertical_slab_recipe.json"
+        ]
+      },
+      "path": "~/recipe/block"
+    },
+    {
+      "name": "AndesiteVerticalSlabRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_vertical_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/andesite_vertical_slab_recipe.json"
+        ]
+      },
+      "path": "~/recipe/block"
+    },
+    {
+      "name": "BirchVerticalSlabRecipeRight",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_vertical_slab_recipe_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/birch_vertical_slab_recipe_right.json"
+        ]
+      },
+      "path": "~/recipe/block"
+    },
+    {
+      "name": "BlackstoneVerticalSlabRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackstone_vertical_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/blackstone_vertical_slab_recipe.json"
+        ]
+      },
+      "path": "~/recipe/block"
+    },
+    {
+      "name": "BrickVerticalSlabRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brick_vertical_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/brick_vertical_slab_recipe.json"
+        ]
+      },
+      "path": "~/recipe/block"
+    },
+    {
+      "name": "BrickVerticalSlabRecipeRight",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brick_vertical_slab_recipe_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/brick_vertical_slab_recipe_right.json"
+        ]
+      },
+      "path": "~/recipe/block"
+    },
+    {
+      "name": "CobbledDeepslateVerticalSlabRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_deepslate_vertical_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/cobbled_deepslate_vertical_slab_recipe.json"
+        ]
+      },
+      "path": "~/recipe/block"
+    },
+    {
+      "name": "FireMasterStaffRightclicked",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fire_master_staff_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/procedures/FireMasterStaffRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item/magic"
+    },
+    {
+      "name": "FireMasterStaff",
+      "type": "tool",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_master_staff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/item/FireMasterStaffItem.java",
+          "src/main/resources/assets/enhancing/models/item/fire_master_staff.json"
+        ]
+      },
+      "path": "~/item/magic"
+    },
+    {
+      "name": "Clamp",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "clamp",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/enhancing/procedures/ClampProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "current",
+            "type": "number"
+          },
+          {
+            "name": "maximum",
+            "type": "number"
+          },
+          {
+            "name": "minimum",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/utility/math"
+    },
+    {
+      "name": "RunedDeepslateBricksEtaOn",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runed_deepslate_bricks_eta_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/runed_deepslate_bricks_eta_on.json",
+          "src/main/resources/assets/enhancing/models/block/runed_deepslate_bricks_eta_on.json",
+          "src/main/java/net/mcreator/enhancing/block/RunedDeepslateBricksEtaOnBlock.java",
+          "src/main/resources/assets/enhancing/blockstates/runed_deepslate_bricks_eta_on.json"
+        ]
+      },
+      "path": "~/block/Runes"
+    },
+    {
+      "name": "RunedDeepslateBricksEtaOff",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runed_deepslate_bricks_eta_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/blockstates/runed_deepslate_bricks_eta_off.json",
+          "src/main/java/net/mcreator/enhancing/block/RunedDeepslateBricksEtaOffBlock.java",
+          "src/main/resources/assets/enhancing/models/block/runed_deepslate_bricks_eta_off.json",
+          "src/main/resources/assets/enhancing/models/item/runed_deepslate_bricks_eta_off.json"
+        ]
+      },
+      "path": "~/block/Runes"
+    },
+    {
+      "name": "RunedDeepslateBricksGammaOn",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runed_deepslate_bricks_gamma_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/block/runed_deepslate_bricks_gamma_on.json",
+          "src/main/java/net/mcreator/enhancing/block/RunedDeepslateBricksGammaOnBlock.java",
+          "src/main/resources/assets/enhancing/models/item/runed_deepslate_bricks_gamma_on.json",
+          "src/main/resources/assets/enhancing/blockstates/runed_deepslate_bricks_gamma_on.json"
+        ]
+      },
+      "path": "~/block/Runes"
+    },
+    {
+      "name": "RunedDeepslateBricksGammaOff",
+      "type": "block",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runed_deepslate_bricks_gamma_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/RunedDeepslateBricksGammaOffBlock.java",
+          "src/main/resources/assets/enhancing/models/item/runed_deepslate_bricks_gamma_off.json",
+          "src/main/resources/assets/enhancing/blockstates/runed_deepslate_bricks_gamma_off.json",
+          "src/main/resources/assets/enhancing/models/block/runed_deepslate_bricks_gamma_off.json"
+        ]
+      },
+      "path": "~/block/Runes"
+    },
+    {
+      "name": "RunedDeepslateBricksBetaOff",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runed_deepslate_bricks_beta_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/blockstates/runed_deepslate_bricks_beta_off.json",
+          "src/main/resources/assets/enhancing/models/item/runed_deepslate_bricks_beta_off.json",
+          "src/main/java/net/mcreator/enhancing/block/RunedDeepslateBricksBetaOffBlock.java",
+          "src/main/resources/assets/enhancing/models/block/runed_deepslate_bricks_beta_off.json"
+        ]
+      },
+      "path": "~/block/Runes"
+    },
+    {
+      "name": "RunedDeepslateBricksBetaOn",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runed_deepslate_bricks_beta_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/blockstates/runed_deepslate_bricks_beta_on.json",
+          "src/main/java/net/mcreator/enhancing/block/RunedDeepslateBricksBetaOnBlock.java",
+          "src/main/resources/assets/enhancing/models/block/runed_deepslate_bricks_beta_on.json",
+          "src/main/resources/assets/enhancing/models/item/runed_deepslate_bricks_beta_on.json"
+        ]
+      },
+      "path": "~/block/Runes"
+    },
+    {
+      "name": "VMath",
+      "type": "code",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "v_math",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/VMath.java"
+        ]
+      },
+      "path": "~/utility/math"
+    },
+    {
+      "name": "Set",
+      "type": "command",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/command/SetCommand.java"
+        ]
+      },
+      "path": "~/commands/creative"
+    },
+    {
+      "name": "BurntOutLantern",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "burnt_out_lantern",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/block/BurntOutLanternBlock.java",
+          "src/main/resources/assets/enhancing/models/block/burnt_out_lantern.json",
+          "src/main/resources/assets/enhancing/models/item/burnt_out_lantern.json",
+          "src/main/resources/assets/enhancing/blockstates/burnt_out_lantern.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "BurntOutLanternRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_out_lantern_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/recipes/burnt_out_lantern_recipe.json"
+        ]
+      },
+      "path": "~/recipe/block"
+    },
+    {
+      "name": "DirtSlab",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dirt_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/block/dirt_slab.json",
+          "src/main/java/net/mcreator/enhancing/block/DirtSlabBlock.java",
+          "src/main/resources/assets/enhancing/blockstates/dirt_slab.json",
+          "src/main/resources/assets/enhancing/models/item/dirt_slab.json",
+          "src/main/resources/assets/enhancing/models/block/dirt_slab_top.json",
+          "src/main/resources/assets/enhancing/models/block/dirt_slab_full.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "DirtStairs",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/blockstates/dirt_stairs.json",
+          "src/main/resources/assets/enhancing/models/block/dirt_stairs.json",
+          "src/main/resources/assets/enhancing/models/item/dirt_stairs.json",
+          "src/main/resources/assets/enhancing/models/block/dirt_stairs_outer.json",
+          "src/main/java/net/mcreator/enhancing/block/DirtStairsBlock.java",
+          "src/main/resources/assets/enhancing/models/block/dirt_stairs_inner.json"
+        ]
+      },
+      "path": "~/block/Vertical Slabs"
+    },
+    {
+      "name": "Wardencape",
+      "type": "armor",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_robe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enhancing/models/item/warden_robe_chestplate.json",
+          "src/main/resources/assets/enhancing/models/item/warden_robe_leggings.json",
+          "src/main/resources/assets/enhancing/models/item/warden_robe_boots.json",
+          "src/main/resources/assets/enhancing/models/item/warden_robe_helmet.json",
+          "src/main/java/net/mcreator/enhancing/item/WardencapeItem.java"
+        ]
+      },
+      "path": "~/armor/warden_cape"
+    },
+    {
+      "name": "HuntingBow",
+      "type": "tool",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunting_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/item/HuntingBowItem.java",
+          "src/main/resources/assets/enhancing/models/item/hunting_bow.json"
+        ]
+      },
+      "path": "~/item/weapon/range"
+    },
+    {
+      "name": "AncientPortalSideChest",
+      "type": "loottable",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_portal_side_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/loot_tables/chests/ancient_portal_side.json"
+        ]
+      },
+      "path": "~/data/lootTables"
+    },
+    {
+      "name": "AncientPortalThroneChest",
+      "type": "loottable",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_portal_throne_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/loot_tables/chests/ancient_portal_throne.json"
+        ]
+      },
+      "path": "~/data/lootTables"
+    },
+    {
+      "name": "AncientPortalAlchimist",
+      "type": "loottable",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_portal_alchimist",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/loot_tables/chests/ancient_portal_alchimist.json"
+        ]
+      },
+      "path": "~/data/lootTables"
+    },
+    {
+      "name": "AncientPortalRoom",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_portal_room",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/forge/biome_modifier/ancient_portal_room_biome_modifier.json",
+          "src/main/java/net/mcreator/enhancing/world/features/AncientPortalRoomFeature.java"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "WorthyOpponent",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worthy_opponent",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enhancing/advancements/worthy_opponent.json"
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "WorthyOpponentGet",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worthy_opponent_get",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/procedures/WorthyOpponentGetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "EmeraldOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "emerald_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/client/screens/EmeraldOverlayOverlay.java"
+        ]
+      },
+      "path": "~/overlays"
+    },
+    {
+      "name": "PlayerStatusManager",
+      "type": "code",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "player_status_manager",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/PlayerStatusManager.java"
+        ]
+      },
+      "path": "~/emerald money system"
+    },
+    {
+      "name": "CollectEmeralds",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "collect_emeralds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/procedures/CollectEmeraldsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/patches"
+    },
+    {
+      "name": "MobsDropEmeralds",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mobs_drop_emeralds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/procedures/MobsDropEmeraldsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/patches"
+    },
+    {
+      "name": "CreateEmeraldNBT",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "create_emerald_nbt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/procedures/CreateEmeraldNBTProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/emerald money system"
+    },
+    {
+      "name": "RetrieveEmeralds",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "retrieve_emeralds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/procedures/RetrieveEmeraldsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/emerald money system"
+    },
+    {
+      "name": "RetrieveEmeraldsKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "retrieve_emeralds_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enhancing/network/RetrieveEmeraldsKeyMessage.java"
+        ]
+      },
+      "path": "~/keycodes"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "EMERALD_COUNT",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "HAS_CREATED_EMERALD_NBT",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.enhancing.waxed_weathered_cut_copper_vertical_slab": "Waxed Weathered Cut Copper Vertical Slab",
+      "block.enhancing.acacia_vertical_slab": "Acacia Vertical Slab",
+      "advancements.worthy_opponent.descr": "Take down a warden.",
+      "item.enhancing.warden_robe_boots": "Warden robe feet",
+      "advancements.worthy_opponent.title": "Worthy Opponent",
+      "block.enhancing.runed_deepslate_bricks_gamma_off": "Runed Deepslate Bricks",
+      "block.enhancing.brick_vertical_slab": "Brick Vertical Slab",
+      "block.enhancing.prismarine_vertical_slab": "Prismarine Vertical Slab",
+      "block.enhancing.waxed_oxidized_cut_copper_vertical_slab": "Waxed Oxidized Cut Copper Vertical Slab",
+      "gui.enhancing.quiver_gui.button_refill": "Refill",
+      "item.enhancing.amethyst_dagger": "Amethyst Dagger",
+      "block.enhancing.dark_oak_vertical_slab": "Dark Oak Vertical Slab",
+      "block.enhancing.waxed_cut_copper_vertical_slab": "Waxed Cut Copper Vertical Slab",
+      "block.enhancing.oakredrooftiles": "Oakredrooftiles",
+      "block.enhancing.runed_deepslate_bricks_gamma_on": "Runed Deepslate Bricks",
+      "block.enhancing.mud_brick_vertical_slab": "Mud Brick Vertical Slab",
+      "block.enhancing.weathered_cut_copper_vertical_slab": "Weathered Cut Copper Vertical Slab",
+      "block.enhancing.blackstone_vertical_slab": "Blackstone Vertical Slab",
+      "item.enhancing.warden_robe_helmet": "Warden robe hat",
+      "gui.enhancing.quiver_gui.label_quiver": "Quiver",
+      "item.enhancing.bird_staff": "Bird Staff",
+      "item.enhancing.quiver": "Quiver",
+      "block.enhancing.dirt_slab": "Dirt Slab",
+      "item.enhancing.scythe": "Scythe",
+      "key.enhancing.retrieve_emeralds_key": "Retrieve Emeralds",
+      "gui.enhancing.emerald_overlay.label_empty": "193",
+      "block.enhancing.dirt_stairs": "Dirt Stairs",
+      "block.enhancing.cobbled_deepslate_vertical_slab": "Cobbled Deepslate Vertical Slab",
+      "item.enhancing.enchanting_cursed_rune": "Enchanting Rune",
+      "block.enhancing.polished_andesite_vertical_slab": "Polished Andesite Vertical Slab",
+      "block.enhancing.polished_deepslate_vertical_slab": "Polished Deepslate Vertical Slab",
+      "item.enhancing.hunting_bow": "Hunting Bow",
+      "block.enhancing.stone_vertical_slab": "Stone Vertical Slab",
+      "block.enhancing.polished_granite_vertical_slab": "Polished Granite Vertical Slab",
+      "block.enhancing.dark_prismarine_vertical_slab": "Dark Prismarine Vertical Slab",
+      "block.enhancing.oak_vertical_slab": "Oak Vertical Slab",
+      "block.enhancing.red_nether_brick_vertical_slab": "Red Nether Brick Vertical Slab",
+      "item.enhancing.enchanting_rune": "Enchanting Rune",
+      "block.enhancing.quartz_vertical_slab": "Quartz Vertical Slab",
+      "block.enhancing.polished_blackstone_brick_vertical_slab": "Polished Blackstone Brick Vertical Slab",
+      "item.enhancing.mystical_crossbow": "Mystical Crossbow",
+      "block.enhancing.burnt_out_lantern": "Burnt Out Lantern",
+      "block.enhancing.nether_brick_vertical_slab": "Nether Brick Vertical Slab",
+      "block.enhancing.red_sandstone_vertical_slab": "Red Sandstone Vertical Slab",
+      "block.enhancing.runed_deepslate_bricks_beta_off": "Runed Deepslate Bricks",
+      "block.enhancing.jungle_vertical_slab": "Jungle Vertical Slab",
+      "block.enhancing.granite_vertical_slab": "Granite Vertical Slab",
+      "enchantment.enhancing.strength": "Strength",
+      "block.enhancing.waxed_exposed_cut_copper_vertical_slab": "Waxed Exposed Cut Copper Vertical Slab",
+      "item.enhancing.fire_master_staff": "Fire Master Staff",
+      "block.enhancing.cobblestone_vertical_slab": "Cobblestone Vertical Slab",
+      "block.enhancing.oxidized_cut_copper_vertical_slab": "Oxidized Cut Copper Vertical Slab",
+      "block.enhancing.diorite_vertical_slab": "Diorite Vertical Slab",
+      "item.enhancing.warden_robe_chestplate": "Warden robe main",
+      "block.enhancing.runed_deepslate_bricks_eta_off": "Runed Deepslate Bricks",
+      "block.enhancing.spruce_vertical_slab": "Spruce Vertical Slab",
+      "block.enhancing.runed_deepslate_bricks_beta_on": "Runed Deepslate Bricks",
+      "block.enhancing.end_stone_brick_vertical_slab": "End Stone Brick Vertical Slab",
+      "block.enhancing.stone_brick_vertical_slab": "Stone Brick Vertical Slab",
+      "enchantment.enhancing.reinforcement": "Reinforcement",
+      "block.enhancing.birch_vertical_slab": "Birch Vertical Slab",
+      "block.enhancing.sandstone_vertical_slab": "Sandstone Vertical Slab",
+      "block.enhancing.prismarine_brick_vertical_slab": "Prismarine Brick Vertical Slab",
+      "item.enhancing.warden_robe_leggings": "Warden robe bottom",
+      "block.enhancing.mossy_stone_brick_vertical_slab": "Mossy Stone Brick Vertical Slab",
+      "item.enhancing.honey_ball": "Honey Ball",
+      "block.enhancing.mangrove_vertical_slab": "Mangrove Vertical Slab",
+      "block.enhancing.polished_diorite_vertical_slab": "Polished Diorite Vertical Slab",
+      "block.enhancing.polished_blackstone_vertical_slab": "Polished Blackstone Vertical Slab",
+      "block.enhancing.cut_copper_vertical_slab": "Cut Copper Vertical Slab",
+      "block.enhancing.runed_deepslate_bricks_eta_on": "Runed Deepslate Bricks",
+      "block.enhancing.exposed_cut_copper_vertical_slab": "Exposed Cut Copper Vertical Slab",
+      "block.enhancing.deepslate_brick_vertical_slab": "Deepslate Brick Vertical Slab",
+      "block.enhancing.deepslate_tile_vertical_slab": "Deepslate TIle Vertical Slab",
+      "enchantment.enhancing.magma_walker": "Magma Walker",
+      "item.enhancing.edler_bow": "Edler Bow",
+      "block.enhancing.warped_vertical_slab": "Warped Vertical Slab",
+      "block.enhancing.purpur_vertical_slab": "Purpur Vertical Slab",
+      "block.enhancing.andesite_vertical_slab": "Andesite Vertical Slab",
+      "block.enhancing.smooth_stone_vertical_slab": "Smooth Stone Vertical Slab",
+      "block.enhancing.crimson_vertical_slab": "Crimson Vertical Slab",
+      "block.enhancing.mossy_cobblestone_vertical_slab": "Mossy Cobblestone Vertical Slab"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "recipe",
+        "children": [
+          {
+            "name": "item",
+            "children": []
+          },
+          {
+            "name": "furnace",
+            "children": [
+              {
+                "name": "blast furnace",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "block",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "item",
+        "children": [
+          {
+            "name": "weapon",
+            "children": [
+              {
+                "name": "range",
+                "children": []
+              },
+              {
+                "name": "melee",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "magic",
+            "children": []
+          },
+          {
+            "name": "ingredients",
+            "children": [
+              {
+                "name": "honey",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "maps",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "gui",
+        "children": []
+      },
+      {
+        "name": "data",
+        "children": [
+          {
+            "name": "lootTables",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "enchantments",
+        "children": [
+          {
+            "name": "weapon",
+            "children": [
+              {
+                "name": "range",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "armor",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "commands",
+        "children": [
+          {
+            "name": "creative",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "block",
+        "children": [
+          {
+            "name": "Vertical Slabs",
+            "children": []
+          },
+          {
+            "name": "Runes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "utility",
+        "children": [
+          {
+            "name": "math",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "armor",
+        "children": [
+          {
+            "name": "warden_cape",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "patches",
+        "children": []
+      },
+      {
+        "name": "achievements",
+        "children": []
+      },
+      {
+        "name": "testing",
+        "children": []
+      },
+      {
+        "name": "structures",
+        "children": []
+      },
+      {
+        "name": "mob",
+        "children": [
+          {
+            "name": "villagers",
+            "children": [
+              {
+                "name": "buyers",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "overlays",
+        "children": []
+      },
+      {
+        "name": "emerald money system",
+        "children": []
+      },
+      {
+        "name": "keycodes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "enhancing",
+    "modName": "Enhancing",
+    "version": "1.0.0",
+    "author": "ur egirl vipere",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.enhancing",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300104717
+}

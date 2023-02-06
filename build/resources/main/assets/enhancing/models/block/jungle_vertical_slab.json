@@ -1,0 +1,9 @@
+{
+  "parent": "enhancing:custom/slab",
+  "textures": {
+    "all": "minecraft:block/jungle_planks",
+    "particle": "minecraft:block/jungle_planks",
+    "missing": "minecraft:block/jungle_planks"
+  },
+  "render_type": "solid"
+}

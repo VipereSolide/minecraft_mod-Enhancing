@@ -1,0 +1,34 @@
+{
+  "_fv": 38,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Strength",
+    "type": "BOW",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "excludeEnchantments": false,
+    "compatibleItems": [
+      {
+        "value": "Items.BOW"
+      },
+      {
+        "value": "Items.CROSSBOW"
+      },
+      {
+        "value": "CUSTOM:MysticalCrossbow"
+      },
+      {
+        "value": "CUSTOM:HuntingBow"
+      }
+    ],
+    "excludeItems": false,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

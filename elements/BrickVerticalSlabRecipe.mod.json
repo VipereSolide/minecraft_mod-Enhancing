@@ -1,0 +1,46 @@
+{
+  "_fv": 38,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.BRICK"
+      },
+      {
+        "value": "Items.BRICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BRICK"
+      },
+      {
+        "value": "Items.BRICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BRICK"
+      },
+      {
+        "value": "Items.BRICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BrickVerticalSlab"
+    },
+    "name": "brick_vertical_slab_recipe",
+    "namespace": "mod"
+  }
+}
